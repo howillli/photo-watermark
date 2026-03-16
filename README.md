@@ -11,15 +11,11 @@
 
 ## 效果展示
 
-```
-┌─────────────────────────────────────────────┐
-│                                             │
-│         [原始图片内容]                       │
-│                                             │
-├─────────────────────────────────────────────┤
-│ [索尼Logo] α7 IV                f/1.8 │ 1/250s │ ISO 640 │
-└─────────────────────────────────────────────┘
-```
+![水印效果展示](photo-watermark/assets/temp_photo2_watermarked_v11.jpg)
+
+水印包含：
+- **左侧**：相机品牌 Logo + 相机型号
+- **右侧**：光圈 | 快门速度 | ISO 参数
 
 ## 安装
 
@@ -98,11 +94,12 @@ python photo-watermark/scripts/generate_logos.py
 ## 项目结构
 
 ```
-Skills/
+photo-watermark/
 ├── README.md                    # 项目说明文档
 ├── photo-watermark/             # Skill 目录
 │   ├── SKILL.md                 # Skill 说明文档
 │   ├── assets/
+│   │   ├── temp_photo2_watermarked_v11.jpg  # 效果展示图片
 │   │   └── logos/               # 品牌Logo图片
 │   │       ├── sony.png
 │   │       ├── fujifilm.png
