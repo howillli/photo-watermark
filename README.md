@@ -11,7 +11,13 @@
 
 ## 效果展示
 
-![水印效果展示](photo-watermark/assets/temp_photo2_watermarked_v11.jpg)
+### 示例 1
+
+![水印效果展示1](photo-watermark/assets/temp_photo2_watermarked_v11.jpg)
+
+### 示例 2
+
+![水印效果展示2](photo-watermark/assets/IMG_0776_watermarked.JPG)
 
 水印包含：
 - **左侧**：相机品牌 Logo + 相机型号
@@ -99,7 +105,8 @@ photo-watermark/
 ├── photo-watermark/             # Skill 目录
 │   ├── SKILL.md                 # Skill 说明文档
 │   ├── assets/
-│   │   ├── temp_photo2_watermarked_v11.jpg  # 效果展示图片
+│   │   ├── temp_photo2_watermarked_v11.jpg  # 效果展示图片1
+│   │   ├── IMG_0776_watermarked.JPG         # 效果展示图片2
 │   │   └── logos/               # 品牌Logo图片
 │   │       ├── sony.png
 │   │       ├── fujifilm.png
