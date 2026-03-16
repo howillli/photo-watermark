@@ -1,0 +1,6 @@
+[skill]
+  skill_package = "photo-watermark.skill"
+  name = "photo-watermark"
+  description = "为照片添加专业水印，自动提取 EXIF 数据显示相机型号和拍摄参数（光圈、快门、ISO），支持 Sony、Fujifilm、Nikon、Canon、Panasonic、vivo、Apple、Huawei 等主流相机品牌，生成带品牌 Logo 的白边底框水印。当用户需要为照片添加专业水印、处理摄影元数据或创建签名边框时使用。"
+  project_name = "照片水印技能"
+  project_description = "为照片添加专业水印和EXIF参数"
